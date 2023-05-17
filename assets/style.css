@@ -1,0 +1,132 @@
+body {
+  background-color: #fff;
+}
+
+#portfolio {
+  background-image: url(./images/header-bg-mobile.svg);
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  padding-top: 17%;
+  width: auto;
+  color: #344563;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-bottom: 20%;
+  height: 66vh;
+}
+
+.information {
+  padding: 10% 10% 1% 10%;
+}
+
+.contact-part {
+  padding: 1% 10% 1% 1%;
+}
+
+.social-part {
+  display: flex;
+  padding: 4px;
+  margin-top: 1px;
+}
+
+.social-item {
+  list-style-type: none;
+  margin: 1px 22px 1px 1px;
+}
+
+.techBtn {
+  border-radius: 8px;
+  background-color: #ebebff;
+  color: #6070ff;
+  list-style-type: none;
+  text-align: center;
+  font-size: 12px;
+  margin: 3px;
+  width: fit-content;
+}
+
+.worke-expr {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 10px;
+  justify-content: start;
+}
+
+.exp-item1 {
+  color: #344563;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+}
+
+.tocin-part {
+  padding-top: 44px;
+}
+
+.accordion {
+  margin-top: 33px;
+  padding-left: 1px;
+}
+
+.accordion li {
+  list-style-type: none;
+}
+
+.accordion-title,
+.acc-icon {
+  display: flex;
+}
+
+.accordion-items {
+  list-style-type: none;
+  margin: 11px 5px;
+  padding: 10px 5px;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.skills {
+  display: inline;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.acc-icon {
+  right: 8%;
+  position: absolute;
+  margin-top: 15px;
+  display: flex;
+}
+
+.acc-icon-right {
+  right: 8%;
+  position: absolute;
+  margin-top: -8px;
+}
+
+.accordion-title {
+  display: flex;
+}
+
+.about {
+  padding: 10%;
+  border-radius: 1px 88px 1px 1px;
+  border: 1px solid rgb(215, 209, 209);
+}
+
+.footer {
+  background-color: #6070ff;
+  background-image: url(images/contact-form-background-shapes.svg);
+  background-size: 100% !important;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 6%;
+  padding-bottom: 8%;
+  border-radius: 100px 0 0 0;
+  text-align: center;
+}
